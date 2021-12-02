@@ -1,0 +1,187 @@
+*,
+:after,
+:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+}
+/* -------- HEADER -------*/
+
+.header {
+    text-align: center;
+    background: white;
+    color: black;
+    font-size: 20px;
+}
+
+.header1 {
+    font-family: Avenir Next;
+}
+
+.header2 {
+    color: rgb(223, 86, 182);
+    font-size: 18px;
+    font-family: Avenir Next;
+}
+
+/*------- NAVIGATION ------- */
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 4%;
+
+}
+
+.topnav a {
+    color: black;
+    text-align: center;
+    padding: 7px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Helvetica;
+}
+
+.topnav a:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: orange;
+    color: black;
+}
+
+.forsidebillede {
+    width: 100%;
+    padding: 40px;
+}
+
+.text {
+    font-family: Helvetica Neue;
+    text-align: center;
+}
+
+/* -------- BLOG POST -------*/
+
+.blogpost {
+    color: black;
+    font-size: 18px;
+    font-family: Helvetica;
+    padding: 1px 40px;
+    font-weight: 800;
+}
+
+.article_section {
+    margin: 10px 0;
+}
+
+.article_inner_flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.card_item {
+    text-decoration: none;
+    color: #333333;
+}
+
+.article_image {
+    max-width: 100%;
+}
+
+.section_heading {
+    margin-bottom: 15px;
+}
+
+
+/* -------- FOOTER ---------*/
+
+.page_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 25rem;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 25px;
+}
+
+.some_images {
+    width: 32px;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+
+.footer_card_heading {
+    font-family: Helvetica;
+    margin-bottom: 6px;
+}
+
+.adress {
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Helvetica;
+}
+
+.quicklinks {
+    font-size: 13px;
+    font-weight: 100;
+    font-family: Helvetica;
+}
+
+.footer_card:first-child .footer_card_heading {
+    margin-bottom: 16px;
+}
+
+.section_heading {
+    margin-bottom: 15px;
+}
+
+
+/* ------ RESPONSIVE ------*/
+@media only screen and (min-width: 900px) {
+
+    .gallery_search_input {
+        width: 50%;
+    }
+
+    .card {
+        width: 15rem;
+        margin-right: 25px;
+    }
+
+    .search_field {
+        height: 27px;
+        margin-left: 25px;
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        border: 1px solid rgba(51, 51, 51, 0.4);
+    }
+
+    .page_footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 7rem;
+    }
+
+    .footer_card {
+        width: 13rem;
+    }
