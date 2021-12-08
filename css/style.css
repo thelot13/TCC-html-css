@@ -59,8 +59,8 @@ html {
 
 .text {
     font-family: Helvetica Neue;
-    text-align: center;
-    padding: 1px 200px;
+    display: flex;
+    padding: 10px;
 }
 
 /* -------- MEMBERSHIP -------*/
@@ -82,7 +82,7 @@ html {
     justify-content: center;
 }
 
-.article_image {
+.image {
     max-width: 100%;
 }
 
@@ -92,29 +92,22 @@ html {
 
 
 /* -------- VOLUNTEER ---------*/
-.volunteer {
-    color: black;
-    font-size: 18px;
-    font-family: Helvetica;
-    padding: 1px 40px;
-    font-weight: 800;
-
+.container {
+    display: flex;
+    align-items: center;
+    background-color: #faf6ca;
 }
 
-.article_inner_flexbox {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    display: flex;
-    justify-content: center;
-}
-
-.article_image {
+.image {
     max-width: 100%;
-}
+    }
 
-.section_heading {
-    margin-bottom: 15px;
+.volunteertext {
+    font-family: Helvetica Neue;
+    display: flex;
+    padding: 10px;
+    
+
 }
 
 
@@ -136,7 +129,6 @@ html {
     margin-right: 16px;
     margin-top: 20px;
 }
-
 
 .footer_card_heading {
     font-family: Helvetica;
